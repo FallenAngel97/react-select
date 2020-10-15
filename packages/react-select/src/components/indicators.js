@@ -22,6 +22,8 @@ const Svg = ({ size, ...props }: { size: number }) => (
       lineHeight: 1,
       stroke: 'currentColor',
       strokeWidth: 0,
+      heigth: `${size}px`,
+      width: `${size}px`,
     }}
     {...props}
   />
